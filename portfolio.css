@@ -127,6 +127,7 @@ p {
   height: 4rem;
   align-items: center;
   justify-content: space-between;
+  color: black;
 }
 
 .logo {
@@ -141,13 +142,14 @@ p {
 }
 
 .nav-link {
-  color: var(--foreground);
+  color: #333;
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 .nav-link:hover {
-  color: var(--primary);
+  color: greenyellow;
+  font-size: 1.2rem;
 }
 
 .social-links {
@@ -162,7 +164,7 @@ p {
   justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
-  color: var(--foreground);
+  color: blue;
   text-decoration: none;
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);
